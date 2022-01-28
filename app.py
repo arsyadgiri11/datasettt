@@ -7,7 +7,7 @@ import cv2
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
-model = keras.models.load_model('sirihdanlidahbuaya.h5')
+model = keras.models.load_model('sirihlidah.h5')
 
 class_dict = {0: 'daunsirih', 1: 'lidahbuaya'}
 
